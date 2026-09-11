@@ -14,7 +14,7 @@ namespace Account1.Test.Controllers
         private readonly HelloWorldController _controller ;
         public HelloWorldControllerTests()
         {
-            _controller = new HelloWorldController(NullLogger<HelloWorldController>.Instance);
+            _controller = new HelloWorldController(); //NullLogger<HelloWorldController>.Instance
         }
 
         [Fact]

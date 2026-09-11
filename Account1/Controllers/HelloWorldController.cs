@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Account1.Controllers
@@ -12,7 +8,7 @@ namespace Account1.Controllers
     {
     //    private readonly ILogger<HelloWorldController> _logger;
     //    public HelloWorldController(ILogger<HelloWorldController> logger)
-    //     {
+    //     {`
     //         _logger = logger;
     //     }
        [HttpGet]
